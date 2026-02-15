@@ -103,6 +103,7 @@ app.post("/ask", async (req, res) => {
   }
 });
 const PORT = process.env.PORT || 5000;
+console.log(PORT)
 app.listen(PORT, () => {
   console.log("Server running on port 5000");
 });
